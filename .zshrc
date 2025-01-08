@@ -100,8 +100,8 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# [[ -f ${HOME}/bin/zsh/aliases.sh ]] && source ${HOME}/bin/zsh/aliases.sh
-# [[ -f ${HOME}/bin/zsh/exports.sh ]] && source ${HOME}/bin/zsh/exports.sh
+[[ -f ${HOME}/bin/zsh/aliases.sh ]] && source ${HOME}/bin/zsh/aliases.sh
+[[ -f ${HOME}/bin/zsh/exports.sh ]] && source ${HOME}/bin/zsh/exports.sh
 
 
 # eval "$(/opt/homebrew/bin/brew shellenv)"
