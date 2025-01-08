@@ -1,6 +1,6 @@
 #!/bin/bash
 
 
-DOTFIILES=$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)
+DOTFILES=$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)
 
-
+[ -f "$HOME/.zshrc" ] && mv "$HOME/.zshrc" "$HOME/.zshrc.bk" || rm "$HOME/.zshrc"; ln -sv "${DOTFILES}/.zshrc" "$HOME/.zshrc"
