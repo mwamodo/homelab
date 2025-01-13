@@ -22,3 +22,10 @@ alias gll="git log --oneline --decorate --all --graph"
 
 # system
 alias reload="source ~/.zshrc"
+
+# switch from top to bpytop
+alias top="bpytop"
+
+# switch from neofetch to fastfetch
+alias neofetch="fastfetch"
+
