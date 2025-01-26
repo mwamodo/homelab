@@ -29,3 +29,5 @@ alias top="bpytop"
 # switch from neofetch to fastfetch
 alias neofetch="fastfetch"
 
+# other
+alias _="sudo"
