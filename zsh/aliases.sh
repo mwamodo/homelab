@@ -31,3 +31,5 @@ alias neofetch="fastfetch"
 
 # other
 alias _="sudo"
+
+alias deepseek="docker exec -it ollama ollama run deepseek-r1:1.5b"
